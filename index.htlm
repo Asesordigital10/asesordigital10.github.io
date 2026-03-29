@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASESOR DIGITAL | Automatización de Ventas</title>
+    <!-- Tailwind CSS para el diseño profesional -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome para los íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* Animación suave para la carga de la página */
+        body {
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* Efecto de brillo en el botón principal */
+        .btn-glow:hover {
+            box-shadow: 0 0 15px rgba(34, 197, 94, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex items-center justify-center p-4 font-sans antialiased">
+
+    <!-- Contenedor principal estilo tarjeta (Mobile First) -->
+    <div class="max-w-md w-full bg-slate-800 rounded-2xl shadow-2xl border border-slate-700 p-8 text-center">
+        
+        <!-- Foto de perfil (Carga tu nueva imagen subida) -->
+        <div class="relative inline-block mb-4">
+            <!-- La imagen apunta al archivo githubad.jpg que debes subir al repositorio -->
+            <img src="githubad.jpg" alt="Logo Asesor Digital" class="w-28 h-28 rounded-full border-4 border-emerald-500 shadow-lg object-cover bg-white">
+            <div class="absolute bottom-1 right-1 bg-emerald-500 w-5 h-5 rounded-full border-2 border-slate-800" title="En línea"></div>
+        </div>
+
+        <!-- Título y Descripción -->
+        <h1 class="text-2xl font-bold text-white mb-2 tracking-wide">ASESOR DIGITAL</h1>
+        <p class="text-emerald-400 font-medium mb-1">Especialistas en "Venta Silenciosa"</p>
+        <p class="text-slate-400 text-sm mb-8 px-2">
+            Transformamos tu flujo de ventas con interfaces inteligentes de WhatsApp. Automatiza, atiende y vende 24/7.
+        </p>
+
+        <!-- Enlaces / Botones -->
+        <div class="space-y-4">
+            
+            <!-- BOTÓN PRINCIPAL: Redirección a WhatsApp con tu número de Uruguay -->
+            <a href="https://wa.me/59895738828?text=Hola%20ASESOR%20DIGITAL,%20vengo%20desde%20GitHub%20y%20quiero%20conocer%20el%20sistema%20de%20Venta%20Silenciosa." 
+               target="_blank" 
+               class="flex items-center justify-center w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 btn-glow group">
+                <i class="fa-brands fa-whatsapp text-2xl mr-3 group-hover:scale-110 transition-transform"></i>
+                Hablar con un Asesor Ahora
+            </a>
+
+            <!-- BOTÓN SECUNDARIO: Enlace a tu perfil de GitHub -->
+            <a href="https://github.com/Asesordigital10" 
+               target="_blank"
+               class="flex items-center justify-center w-full bg-slate-700 hover:bg-slate-600 text-slate-200 font-medium py-3 px-6 rounded-xl transition-all duration-300 border border-slate-600 hover:border-slate-500">
+                <i class="fa-brands fa-github text-xl mr-3"></i>
+                Ver Repositorios de Clientes
+            </a>
+
+            <!-- BOTÓN TERCIARIO: Correo electrónico -->
+            <a href="mailto:tu-correo@ejemplo.com" 
+               class="flex items-center justify-center w-full bg-transparent hover:bg-slate-700 text-slate-400 hover:text-white font-medium py-3 px-6 rounded-xl transition-all duration-300 border border-transparent hover:border-slate-600">
+                <i class="fa-regular fa-envelope text-xl mr-3"></i>
+                Enviar un correo
+            </a>
+
+        </div>
+
+        <!-- Pie de página -->
+        <div class="mt-10 pt-6 border-t border-slate-700 text-xs text-slate-500">
+            <p>&copy; 2026 ASESOR DIGITAL. Todos los derechos reservados.</p>
+        </div>
+    </div>
+
+</body>
+</html>
